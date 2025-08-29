@@ -1,0 +1,58 @@
+/**
+ * CSS module for homepage styling
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutSection {
+  padding: 4rem 0;
+  background: var(--ifm-background-color);
+}
+
+.aboutText {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.currentFocus {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, var(--finnious-light-gray) 0%, rgba(255, 255, 255, 0.8) 100%);
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+[data-theme='dark'] .currentFocus {
+  background: linear-gradient(135deg, var(--ifm-color-emphasis-100) 0%, var(--ifm-background-color) 100%);
+}
+
+.focusText {
+  font-size: 1.3rem;
+  color: var(--ifm-color-primary);
+  margin-bottom: 2rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    padding: 2rem 0;
+  }
+  
+  .aboutSection,
+  .currentFocus {
+    padding: 2rem 0;
+  }
+  
+  .aboutText {
+    font-size: 1rem;
+  }
+  
+  .focusText {
+    font-size: 1.1rem;
+  }
+}

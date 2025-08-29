@@ -1,0 +1,290 @@
+/**
+ * Custom styles for finnious.com
+ * Personal branding for Scott Finney
+ */
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* CSS variables for consistent theming */
+:root {
+  --ifm-color-primary: #2e7d32; /* Green theme inspired by cycling/nature */
+  --ifm-color-primary-dark: #1b5e20;
+  --ifm-color-primary-darker: #0e4d1b;
+  --ifm-color-primary-darkest: #0a3d15;
+  --ifm-color-primary-light: #43a047;
+  --ifm-color-primary-lighter: #4caf50;
+  --ifm-color-primary-lightest: #66bb6a;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Custom brand colors */
+  --finnious-orange: #ff6f00;
+  --finnious-blue: #1976d2;
+  --finnious-gray: #424242;
+  --finnious-light-gray: #f5f5f5;
+  
+  /* Typography */
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.6;
+}
+
+/* Dark theme adjustments */
+[data-theme='dark'] {
+  --ifm-color-primary: #66bb6a;
+  --ifm-color-primary-dark: #4caf50;
+  --ifm-color-primary-darker: #43a047;
+  --ifm-color-primary-darkest: #2e7d32;
+  --ifm-color-primary-light: #81c784;
+  --ifm-color-primary-lighter: #a5d6a7;
+  --ifm-color-primary-lightest: #c8e6c9;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Typography improvements */
+.hero__title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero__subtitle {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 2rem;
+}
+
+/* Custom hero section */
+.hero--primary {
+  background: linear-gradient(135deg, var(--ifm-color-primary-light) 0%, var(--ifm-color-primary-dark) 100%);
+  color: white;
+}
+
+.hero--primary .hero__title,
+.hero--primary .hero__subtitle {
+  color: white;
+}
+
+/* Profile image styling */
+.profile-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 auto 2rem auto;
+  display: block;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 4px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Feature cards */
+.features-section {
+  padding: 4rem 0;
+  background: var(--finnious-light-gray);
+}
+
+[data-theme='dark'] .features-section {
+  background: var(--ifm-background-color);
+}
+
+.feature-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme='dark'] .feature-card {
+  background: var(--ifm-card-background-color);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.feature-card h3 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.feature-card .emoji {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+/* Social links styling */
+.social-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  padding: 0.75rem 1.5rem;
+  background: var(--ifm-color-primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.social-link:hover {
+  background: var(--ifm-color-primary-dark);
+  color: white;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+/* Blog post styling */
+.blog-post-item {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Navigation improvements */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar__brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* Footer improvements */
+.footer {
+  background: var(--ifm-color-emphasis-100);
+  padding: 3rem 0 2rem 0;
+}
+
+[data-theme='dark'] .footer {
+  background: var(--ifm-color-emphasis-200);
+}
+
+/* Page content improvements */
+.container {
+  max-width: 1200px;
+}
+
+/* Coffee page specific styles */
+.coffee-hero {
+  background: linear-gradient(135deg, #5d4037 0%, #3e2723 100%);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.coffee-image {
+  max-width: 300px;
+  border-radius: 12px;
+  margin: 2rem auto;
+  display: block;
+}
+
+/* Journey of Hope page styles */
+.journey-hero {
+  background: linear-gradient(135deg, var(--finnious-blue) 0%, var(--ifm-color-primary) 100%);
+  color: white;
+  padding: 4rem 0;
+}
+
+.journey-stats {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] .journey-stats {
+  background: var(--ifm-card-background-color);
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  display: block;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-600);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive design improvements */
+@media (max-width: 768px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+  
+  .hero__subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .social-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .journey-stats {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+/* Custom button styles */
+.button--primary {
+  background: var(--ifm-color-primary);
+  border: none;
+  border-radius: 25px;
+  padding: 0.75rem 2rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.button--primary:hover {
+  background: var(--ifm-color-primary-dark);
+  transform: translateY(-2px);
+}
+
+.button--secondary {
+  background: transparent;
+  color: var(--ifm-color-primary);
+  border: 2px solid var(--ifm-color-primary);
+  border-radius: 25px;
+  padding: 0.75rem 2rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.button--secondary:hover {
+  background: var(--ifm-color-primary);
+  color: white;
+}
