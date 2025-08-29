@@ -7,7 +7,7 @@
   </div>
 </div>
 
-![Coffee Setup](/img/phish-coffee-mug.jpg)
+![Coffee Setup](/img/Phish-Coffee-Mug.jpg)
 
 ## My Coffee Journey
 
