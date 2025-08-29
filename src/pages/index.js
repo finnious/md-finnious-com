@@ -68,7 +68,7 @@ function FeaturesSection() {
       link: 'https://goo.gl/maps/bsqFprikrwZ39YMq7'
     },
     {
-      emoji: '🚴♂️',
+      emoji: '🚴',
       title: 'Journey of Hope Cyclist',
       description: 'In 2017, I rode 3,333 miles across the United States to raise money and awareness for people with disabilities.',
       link: '/journey-of-hope'

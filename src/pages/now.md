@@ -6,6 +6,8 @@
 
 Right now I'm focused on being present with my family. 
 
+![Family Kiwi Stroll](/img/Family-kiwi-stroll-2025.08.jpg)
+
 ## Recent Projects
 
 - Migrating my website from WordPress to Docusaurus

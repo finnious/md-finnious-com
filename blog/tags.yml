@@ -1,19 +1,116 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+# Personal Growth & Life
+personal-growth:
+  label: Personal Growth
+  permalink: /personal-growth
+  description: Insights and lessons from continuous self-improvement
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+life-lessons:
+  label: Life Lessons
+  permalink: /life-lessons
+  description: Hard-earned wisdom from real experiences
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+personal:
+  label: Personal
+  permalink: /personal
+  description: Personal stories and reflections
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+# Business & Entrepreneurship
+business:
+  label: Business
+  permalink: /business
+  description: Insights from running Creating Value LLC and working with small businesses
+
+customer-service:
+  label: Customer Service
+  permalink: /customer-service
+  description: Thoughts on building better business relationships
+
+relationships:
+  label: Relationships
+  permalink: /relationships
+  description: Building meaningful connections in business and life
+
+# Health & Fitness
+health:
+  label: Health
+  permalink: /health
+  description: Health transformation stories and sustainable wellness
+
+fitness:
+  label: Fitness
+  permalink: /fitness
+  description: Exercise, training, and physical performance
+
+weight-loss:
+  label: Weight Loss
+  permalink: /weight-loss
+  description: Real stories and strategies for sustainable weight management
+
+cycling:
+  label: Cycling
+  permalink: /cycling
+  description: Bike rides, training, and cycling adventures
+
+journey-of-hope:
+  label: Journey of Hope
+  permalink: /journey-of-hope
+  description: The cross-country bike ride that changed everything
+
+# Technology
+technology:
+  label: Technology
+  permalink: /technology
+  description: Tech insights, trends, and practical applications
+
+web-development:
+  label: Web Development
+  permalink: /web-development
+  description: Building websites and digital experiences
+
+blockchain:
+  label: Blockchain
+  permalink: /blockchain
+  description: Blockchain technology, cryptocurrency, and Web3
+
+nfts:
+  label: NFTs
+  permalink: /nfts
+  description: Non-fungible tokens, digital ownership, and crypto art
+
+crypto:
+  label: Crypto
+  permalink: /crypto
+  description: Cryptocurrency, DeFi, and digital finance
+
+web3:
+  label: Web3
+  permalink: /web3
+  description: The decentralized internet and its applications
+
+# Learning & Growth
+books:
+  label: Books
+  permalink: /books
+  description: Book recommendations and reading insights
+
+reading:
+  label: Reading
+  permalink: /reading
+  description: Learning through books and continuous education
+
+recommendations:
+  label: Recommendations
+  permalink: /recommendations
+  description: Curated suggestions for books, tools, and resources
+
+# Productivity & Success
+productivity:
+  label: Productivity
+  permalink: /productivity
+  description: Systems and strategies for getting things done
+
+# Site Updates
+announcement:
+  label: Announcements
+  permalink: /announcements
+  description: Site updates and important news

@@ -7,7 +7,7 @@
   </div>
 </div>
 
-![Scott Finney Journey of Hope 2017](/img/finnious-journey-2017.jpg)
+![Scott Finney Journey of Hope 2017](/img/Finnious-Journey-of-Hope-2017.jpg)
 
 <div className="journey-stats">
   <div className="stat-item">
